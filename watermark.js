@@ -253,7 +253,7 @@ function embedWatermarkWithCb(source, options, callback) {
 		            	return callback(null);
 		            }
 		        });
-			});
+			}, {maxBuffer: 4096*1024});
 		}
 	});
 	
