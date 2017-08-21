@@ -4,7 +4,7 @@
 	"description"     : "A powerful watermark library for image and pdf files based on ImageMagick for node.js",
 	"main" 			  : "./watermark.js",
 	"dependencies"    : {
-		"imagemagick" : "" ,
+		"imagemagick": "https://github.com/ClearPoint-Strategy/node-imagemagick/tarball/master",
 		"node-ratify" : ""
 	},
 	"keywords"		  : [
